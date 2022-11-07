@@ -1,0 +1,8 @@
+.rootInfo {
+    border: 1px solid;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}

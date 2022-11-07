@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.grid > div {
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
