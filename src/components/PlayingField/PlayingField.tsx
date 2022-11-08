@@ -73,7 +73,7 @@ const PlayingField: React.FC = () => {
             saveResult(user, currentMove ? numberOfStepsO : numberOfStepsX)
             dispatch(openRating(true))
             resetToInitial()
-        }, 200)
+        }, 100)
     }
 
     const victoryCheck = () => {
@@ -103,8 +103,8 @@ const PlayingField: React.FC = () => {
             setTimeout(() => {
                 setCount(0)
                 alert('Ничья 🤔')
-                setTimeout(() => resetToInitial(), 200)
-            }, 200)
+                setTimeout(() => resetToInitial(), 100)
+            }, 100)
         }
     }, [fieldValues])
 

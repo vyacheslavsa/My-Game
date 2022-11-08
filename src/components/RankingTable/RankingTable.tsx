@@ -15,7 +15,7 @@ const RankingTable = () => {
                 <div className="title">Рейтинг</div>
                 <div className="content">
                     {resultsGames.length ?
-                        <ol style={{width: "100%", paddingLeft: "20px"}}>
+                        <ol style={{width: "100%"}}>
                             {
                                 resultsGames.map((item, index) =>
                                     <div
