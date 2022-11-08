@@ -1,4 +1,4 @@
-.rootInfo {
+.namesBlock {
     border: 1px solid;
     width: 500px;
     height: 100px;
@@ -6,10 +6,14 @@
     padding: 10px;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
 }
 
-.rootInfo > button {
-    cursor: pointer;
+.namesBlock > div {
+    border: 1px solid;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
