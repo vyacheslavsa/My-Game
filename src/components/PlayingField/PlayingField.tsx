@@ -14,6 +14,7 @@ import {Results} from "../../types/types";
 
 const PlayingField: React.FC = () => {
     const dispatch = useDispatch()
+
     const {gameInfo} = useTypeSelector(state => state)
     const {fieldValues, currentMove, userNames, openRankingTable, resultsGames} = gameInfo
 
